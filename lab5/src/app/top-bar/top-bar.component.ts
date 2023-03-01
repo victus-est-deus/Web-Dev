@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { categories } from '../category';
 
 import { Product, products } from '../products';
 @Component({
@@ -10,6 +9,5 @@ import { Product, products } from '../products';
 })
 export class TopBarComponent {
   
-    categories = categories;
   
 }

@@ -10,12 +10,12 @@ import { products } from '../products';
 export class CategoryComponent {
  
   prods = products;
-  category : Product[]=[];
+  categories : Product[]=[];
   constructor(){
-    this.category=[];
+    this.categories=[];
     for(let x of products){
-      let res=this.category.find(element=>element.categories===x.categories);
-      if(res===undefined) this.category.push(x);
+      let res=this.categories.find(element=>element.categories===x.categories);
+      if(res===undefined) this.categories.push(x);
       
     }
   }

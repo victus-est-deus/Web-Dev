@@ -1,1 +1,24 @@
-<p>product-item works!</p>
+<div *ngIf="product">
+    <h3>
+         <a [title]="product.name + ' details'"
+         [routerLink]="['/products', product.id]">
+             {{ product.name }}
+         </a>
+     </h3>
+ 
+     <p >
+         Description: {{ product.description }}
+     </p>
+ 
+     <div>
+        <img src="../assets/img/{{product.img}}" alt="Product From Kaspi" width="250" height="300"/>
+     </div>
+ 
+     <p > {{product.like}}
+         <button (click)="onClick(product)">Like </button>
+     </p> 
+
+     <p >{{product.Delete}}
+        <button (click)="Delete(product)">Delete </button>
+    </p>
+     
