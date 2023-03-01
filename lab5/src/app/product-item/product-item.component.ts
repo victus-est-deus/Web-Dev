@@ -18,10 +18,5 @@ export class ProductItemComponent implements OnInit {
     product.like++;
 
   }
-  Delete(product:Product): void{
-    product.Delete == false;
-    if(product.Delete == false){
-      
-    }
-  }
+
 }
