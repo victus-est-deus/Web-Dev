@@ -12,6 +12,7 @@ import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ProductItemComponent } from './product-item/product-item.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import { ProductItemComponent } from './product-item/product-item.component';
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
-      {path: 'category/:categoryCategories', component: TopBarComponent }
+      {path: 'category/:categoryCategories', component: TopBarComponent },
+      {path: 'category/:categoryCategories', component: ProductListComponent }
     ])
   ],
   declarations: [
@@ -35,6 +37,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
     CartComponent,
     ShippingComponent,
     ProductItemComponent,
+    CategoryComponent,
   ],
   bootstrap: [
     AppComponent
