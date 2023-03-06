@@ -1,4 +1,3 @@
-//delete
 
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -10,7 +9,6 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-// Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -20,7 +18,6 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-//add button
 function newElement() {
 	var li = document.createElement("li");
 	var inputValue = document.getElementById("myInput").value;
@@ -46,7 +43,7 @@ function newElement() {
 	  }
 	}
   }
-  //checked
+
   var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
