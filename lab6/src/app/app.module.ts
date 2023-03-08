@@ -9,6 +9,7 @@ import {AlbumsComponent} from './albums/albums.component';
 import {AboutComponent} from './about/about.component';
 import {AlbumsPhotoComponent} from './albums-photo/albums-photo.component';
 import {AlbumDetailComponent} from './album-detail/album-detail.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {AlbumDetailComponent} from './album-detail/album-detail.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
