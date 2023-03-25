@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Product } from '../products';
+import { Product, products } from '../products';
 
 @Component({
   selector: 'app-product-item',
@@ -18,5 +18,12 @@ export class ProductItemComponent implements OnInit {
     product.like++;
 
   }
+
+  // DeleteProduct(product:Product): void {
+  //   const index = this.product.indexOf(product);
+  //   if (index !== -1) {
+  //     this.product.splice(index, 1);
+  //   }
+  // }
 
 }

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TopBarComponent } from './top-bar.component';
+import { AlbumsPhotoComponent } from './albums-photo.component';
 
-describe('TopBarComponent', () => {
-  let component: TopBarComponent;
-  let fixture: ComponentFixture<TopBarComponent>;
+describe('AlbumsPhotoComponent', () => {
+  let component: AlbumsPhotoComponent;
+  let fixture: ComponentFixture<AlbumsPhotoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TopBarComponent ]
+      declarations: [ AlbumsPhotoComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TopBarComponent);
+    fixture = TestBed.createComponent(AlbumsPhotoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
