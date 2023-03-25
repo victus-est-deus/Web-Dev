@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sidebar{
   display: flex;
   justify-content: space-evenly;
@@ -16,3 +17,23 @@ a:hover{
   font-size: 18px;
 }
 
+=======
+.sidebar{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+  background-color: gray;
+}
+a{
+  color:black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover{
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+>>>>>>> 9123ba716c97b45a0aaf598191e2ebd8b9a6a01a
